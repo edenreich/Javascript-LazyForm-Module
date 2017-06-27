@@ -1,4 +1,4 @@
-<p align="center"><img src="https://s17.postimg.org/pf9gjcusv/sloth-beach-upside-down.adapt.945.1.jpg"></p>
+<p align="center"><img src="https://s17.postimg.org/pf9gjcusv/sloth-beach-upside-down.adapt.945.1.jpg" height="200px" width="450px"></p>
 
 # Javascript-LazyForm-Module
 A simple module to collect the data from the form. Built using a fluent pattern so its easy to use.
