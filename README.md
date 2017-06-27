@@ -31,7 +31,9 @@ Now we can use it like so:
 ```javascript
   var form = document.getElementById('#form');
   
-  form.onsubmit = function() {
+  form.onsubmit = function(e) {
+    e.preventDefault();
+    
     var data = LazyForm.select(this)
                        .get(['inputs', 'selects', 'hidden'])
                        .toJson(); // or you can use toQueryString()
