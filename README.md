@@ -32,9 +32,11 @@ Now we can use it like so:
   var form = document.getElementById('#form');
   
   form.onsubmit = function() {
-    LazyForm.select(this)
-             .get(['inputs', 'selects', 'hidden'])
-             .toJson(); // or you can use toQueryString()
+    var data = LazyForm.select(this)
+                       .get(['inputs', 'selects', 'hidden'])
+                       .toJson(); // or you can use toQueryString()
+                       
+     // send the ajax with the data
   }
   
 ```
