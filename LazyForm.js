@@ -72,7 +72,6 @@ var LazyForm = (function() {
 	 * Retrieve JSON.
 	 */
 	function toJson() {
-
 		var json = {};
 		
 		for(var inputs in elements) {
@@ -94,7 +93,6 @@ var LazyForm = (function() {
 	 * Retrieve key value pairs.
 	 */
 	function toQueryString() {
-
 		var queryString = '';
 		
 		for(var inputs in elements) {
