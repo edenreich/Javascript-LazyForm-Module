@@ -22,7 +22,7 @@ say we have following HTML.
       </select>
       <input type="radio" name="option">
       <input type="submit" value"Submit Form"> 
-    <form>
+    </form>
   </body>
 </html>
 ```
