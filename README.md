@@ -21,7 +21,7 @@ say we have following HTML.
         <option value="3">Option 3</option>
       </select>
       <input type="radio" name="option">
-      <input type="submit" value"Submit Form"> 
+      <input type="submit" value="Submit Form"> 
     </form>
   </body>
 </html>
