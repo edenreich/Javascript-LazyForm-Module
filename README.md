@@ -36,7 +36,7 @@ Now we can use it like so:
                        .get(['inputs', 'selects', 'hidden'])
                        .toJson(); // or you can use toQueryString()
                        
-     // send the ajax with the data
+     // next...send the data with ajax
   }
   
 ```
