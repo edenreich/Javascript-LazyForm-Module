@@ -5,7 +5,7 @@ A simple module to collect the data from the form. Built as a fluent pattern so 
 
 say we have following HTML.
 ```html
-<!doctype>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Demo</title>
