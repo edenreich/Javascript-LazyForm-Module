@@ -58,7 +58,7 @@ var LazyForm = (function() {
 						elements.checkboxs = document.querySelectorAll('input[type=checkbox]');
 						break;
 					case 'radioboxs':
-						elements.radioboxs = document.querySelectorAll('input[type=radiobox]');
+						elements.radioboxs = document.querySelectorAll('input[type=radio]');
 						break;
 					case 'hidden':
 						elements.hidden = document.querySelectorAll('input[type=hidden]');
