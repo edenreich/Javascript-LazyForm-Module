@@ -52,7 +52,7 @@ You also can use it outside of the event and pass the right selector like so(whi
  - LazyForm.select() // accepts form object or a selector 
  - LazyForm.get(['inputs', 'selects', 'hidden', 'radioboxs', 'checkboxs']) // will query only the ones needed.
  - LazyForm.toJson() // turns the data into a json object
- - LazyForm.toQueryString // turns the data into a key-value pairs
+ - LazyForm.toQueryString() // turns the data into a key-value pairs
 
 ## Notes
 This still does not support multiple forms instances on a single request. You are welcome to send pull request to improve it.
