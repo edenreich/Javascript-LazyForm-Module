@@ -12,8 +12,8 @@ say we have following HTML.
   </head>
   <body>
     <form id="form" action="" method="">
-      <input name="_token" value="somerandomtoken">
-      <input name="keywords">
+      <input type="hidden" name="_token" value="somerandomtoken">
+      <input type="text" name="keywords">
       <select name="category">
         <option selected readonly>Select..</option>
         <option value="1">Option 1</option>
